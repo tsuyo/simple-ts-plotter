@@ -28,6 +28,7 @@ $ . venv/bin/activate
 - Support formats: xlsx or csv
 - 1st row: header of your data
   - 1st column must be "Time" (as x-axis)
-  - The rest columns are displayed as y-axes
-- 2nd row and onward
-  - data should be numeric
+  - The rest of the columns are arbitrary and displayed as y-axes
+- 2nd row and onward (data)
+  - 1st column: date/time
+  - The rest of the columns: numeric
