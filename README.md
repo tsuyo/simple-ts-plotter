@@ -20,7 +20,7 @@ Time,Average of Helper Cores in License,H Cores Demand,On Prem Available H Cores
 $ python3 -m venv venv
 $ . venv/bin/activate
 (venv) $ python -m pip install --upgrade pip
-(venv) $ pip install streamlit plotly openpyxl
+(venv) $ pip install streamlit plotly openpyxl watchdog
 (venv) $ streamlit run simple_ts_plotter.py
 ```
 
